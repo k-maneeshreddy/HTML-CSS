@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Froms</title>
+  </head>
+
+  <body>
+    <h2>Registration Form</h2>
+    <form action="" method="">
+      <label for="name">First Name</label>
+      <input type="text" name="name" id="name" placeholder="First Name" />
+      <br />
+      <br />
+      <label for="name1">Last Name</label>
+      <input type="text" name="name" id="name1" placeholder="Last Name" />
+      <br />
+      <br />
+      <label for="Email">Email id</label>
+      <input
+        type="email"
+        value="xyz@gmail.com"
+        placeholder="Enter your Mail id"
+      />
+      <br />
+      <br />
+      <label for="password">Create Password</label>
+      <input type="password" placeholder="Enter your password" />
+      <br />
+      <br />
+      <p><strong>Select your Gender</strong></p>
+      <input type="radio" name="gender" value="male" id="" />Male
+      <input type="radio" name="gender" value="female" id="" />Female
+      <input type="radio" name="gender" value="others" id="" />Others
+
+      <br />
+      <br />
+      <p><strong>Courses Offerd</strong></p>
+      <select name="languages" id="">
+        <option value="javascript">Javascript</option>
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="Devops">Devops</option>
+        <option value="Java Full Stack">Java Full Stack</option>
+        <option value="AWS">AWS</option>
+      </select>
+      <br />
+      <br />
+      <p><strong>Mode of Training</strong></p>
+      <input
+        type="checkbox"
+        name="mode of learning"
+        id=""
+        value="Online"
+      />Online
+      <input
+        type="checkbox"
+        name="mode of learning"
+        id=""
+        value="Offline"
+      />Offline
+
+      <br /><br />
+
+      <p><strong>Any suggestions</strong> (optional)</p>
+      <textarea name="" id="" cols="20" rows="7"></textarea>
+      <br />
+      <!-- <input type="submit" /> -->
+      <button type="submit">Please Submit</button>
+    </form>
+  </body>
+</html>
+
+<!-- In this file we used 5 differetnt tyoes of tags
+1. Form tag <form> , while we are creating any type of form,
+  that overall content must be in between this form tag.
+ 2. Input tag <input> , this tag is used to give any type of
+input data. like firstname, lastname, mail, password etc..
+ in this we have couple attributes, we can discuss about
+attributes at last.
+3. Textarea tag <textarea> , this tag is used to create text box,
+  which helps to enter any description or feedback.
+4. Button tag <button tag>, this tag is usefull to add buttons,
+  like submit the form button.
+5. Label tag <label> , this tag is to give the title like
+  firstname, lastname, password, email etc..,  
+6. Option tag <option>, this tag is used to give dropdown options,
+  from there we should select as our wish -->
+
+<!-- 1. In form tag, there are two attributes called action & method, as of now
+  no use.
+2. input tag attributes
+a. type: this attribute is used to give text, numericals, radio, password etc.
+b. name: this is attribute is used to give what type of content, we are using
+in that table, that should be entered here
+c. id: this attribute is interlinked with other attribute called
+"form" in label tag . The text in both form and id attribute must be same.
+Id attribute is not useful in all tags
+d. placeholder: This attribute will highlight the text box with,
+what we want to fill there.
+e. value: this attribute is mainly used, to collect the data in backend-->
