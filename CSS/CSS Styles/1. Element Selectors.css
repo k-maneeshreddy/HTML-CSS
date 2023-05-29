@@ -1,0 +1,19 @@
+   
+   /*  Element Selectors */
+
+   h1 {
+    color: blueviolet;
+    background-color: beige;
+   }
+
+   p {
+    color: darkred;
+   }
+
+   h2 {
+    color: blueviolet;
+    background-color: beige;
+   }
+
+   /* a.This is normal basic style structure.
+   note : just concentrate on selectors only. */

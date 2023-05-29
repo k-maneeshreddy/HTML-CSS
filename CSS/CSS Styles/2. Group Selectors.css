@@ -1,0 +1,21 @@
+
+/*  Group Selectors */
+
+body {
+    background-color: darkgray;
+
+}
+
+h1, h2 {
+    color: white;
+    background-color: brown;
+}
+
+/* a. This is Group selectors structure.
+   b. Here we can see, we used body selector, this mean
+   that particularstyle will be applied to overal body
+   content.
+   c. in 9th line we have h1, h2. this is nothing but ,
+   if we want customize, multiple selector as same,
+   then we can use this group selectors. to style the
+   multiple selectors at a time. */

@@ -1,0 +1,19 @@
+
+/*  ID Selectors */
+
+
+#heading{
+    color: blue;
+}
+
+#second_heading {
+    color: brown;
+}
+
+/* 
+a. ID selectors, first of all we should give, unique name for id attribute in html file
+later, come to here.
+b. here in selectors place we should give same id which is used in,
+html file, then style will get matched.
+c. ID seletors syntax is # here.
+*/
