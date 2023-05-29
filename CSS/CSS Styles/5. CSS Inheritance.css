@@ -1,0 +1,23 @@
+
+/* CSS Inheritance */
+
+body {
+    color: red;
+}
+
+div {
+    color: pink;
+    background-color: brown;
+
+}
+
+div p {
+    color: beige;
+}
+
+/* as we discussed in eaxmple in 5 html file,
+body and div is parent tag. So we styled them seperatly
+a. we used div p in this file, this is nothing but
+div is parent and p is child in div tag.
+So here if we want style child tag seperatly we can use
+syntax like this. */

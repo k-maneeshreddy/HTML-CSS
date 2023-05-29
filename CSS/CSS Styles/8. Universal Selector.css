@@ -1,0 +1,13 @@
+
+
+/*  Universal Selector */
+
+* {
+    padding: 10px;
+    margin: 12px;
+}
+
+/*  " * " This is the syntax of universal selector */
+/* Universal selector has the lest specificty value.
+  The properties in universal selector is applicable for
+  all the content in that file. */

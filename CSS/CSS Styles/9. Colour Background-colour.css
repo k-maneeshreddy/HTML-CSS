@@ -1,0 +1,25 @@
+
+/* properties: Colour Background-colour */
+
+#first {
+    color: red;
+    background-color: lightblue;
+}
+
+#second {
+    color: white;
+    background: blue;
+}
+
+/* Here we used 3 properties */
+/* 1. "color" property is use to give the color to text.
+  2. "background-color" is used to give the background color to that text.
+   3. "background" this shortcut for background-color &
+   background-img. */
+
+   /* Shortcuts to get colors
+   1. ctrl + space.
+   2. enter colour code manually.
+   3. After selecting the one colour, then
+   just mouse hover your cursor on that,
+   then select colours from element colour box */

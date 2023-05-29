@@ -1,0 +1,16 @@
+
+/* Properties: font-size, height, width */
+/* values: pixels */
+
+h1 {
+    font-size: 28px;
+    height: 100px;
+    width: 350px;
+    background: lightgrey;
+}
+
+/* we used 3 new properties here.
+  1. font-size: this will helpfull to increase the font size.
+  2. height: this will helpfull to increase the height, we can
+  only observe when we use background property.
+  3. width: this will helpfull to increase the width.*

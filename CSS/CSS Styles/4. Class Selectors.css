@@ -1,0 +1,14 @@
+
+/* Class Selectors */
+
+.Green {
+    color: green;
+}
+
+.Red {
+    color: red;
+}
+
+/* "." is the syntax for class selectors */
+/* in html file we used two words green & red,
+so  here we kept those 2 words in selectors place. */

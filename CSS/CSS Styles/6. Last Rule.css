@@ -1,0 +1,22 @@
+
+
+/* Last Rule */
+
+body {
+    color: blue;
+}
+
+body {
+    color: teal;
+}
+
+body {
+    color: brown;
+}
+
+
+/* See for gorup we gave the 3 different stylings.
+  but the last style only applicable for css, this mean
+  how many same syntax styles you gave is not important,
+   only the last syntax will be applicable. This is known as
+   Last Rule. */

@@ -1,0 +1,56 @@
+
+/* Specificty */
+
+h1 {
+    color: blue;
+}
+
+.three {
+    color: brown;
+}
+
+#four {
+    color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+.para {
+    color: darkgoldenrod;
+}
+
+#graph {
+    color: darkviolet;
+}
+
+
+
+/* befor going to specifity, we know about selectors right,
+in this file we used 3 different selectors.
+(h1 is element selector), (.three is class selector),
+(#four is id selector).  */
+
+/* What is specificty  ?
+every selectors have their own specificty, to know the specificty value,
+just mouse hover your cursor to h1 then you can see the values,
+In the same mouse iver your cursor to other to selectors, i.e .three
+and #four, there you can see those specificty values*/
+
+/* According to highest specificty values, the syntaxes are applicable */
+
+
+/* Example:
+   See first check the "specificty html" in that for paragraph itself,
+   we had use two selectors.
+   one is class, for thise we gave gold color
+   one is id , for this we have darkvioet color. 
+   
+   Even though we have 2 different selectors, with 2 different
+   colors, we can only see dark violet color paragraph,
+   beacuse, there we used "id selector", this has higher specificty value.*/
+
