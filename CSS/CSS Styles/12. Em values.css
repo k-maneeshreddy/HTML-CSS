@@ -1,0 +1,36 @@
+
+
+/* Em Values */
+
+/* em- this is relative because depends on parent tag */
+/* 1em=16px (default browser font pixel) 
+  2em = 32px
+   3em = 48px */
+   /* em depends on parent tag */
+
+div {
+     font-size: 20px;
+}
+.relative {
+    font-size: 2em;
+}
+
+
+
+
+
+
+.absolute {
+    font-size: 32px;
+}
+
+
+/* Here we used value called "em" */
+
+/* in this file we used "relative and absolute"
+  for relative we used 2em and for absoulte we used 32px
+  so here both are same. */
+
+  /* here in starting we used div and relative syntaxes.
+   here em is depend on px, so there the px size is 2*20=40px
+   that means em is depends on px. */

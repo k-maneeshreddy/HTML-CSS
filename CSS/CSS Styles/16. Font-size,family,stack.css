@@ -1,0 +1,56 @@
+
+/* Font size
+  Font family
+  Font stack - Generic family */
+  /*  serif, sans-serif, cursive, fanatsy, monospace */
+
+  h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  /* 1. font-size: size of words/letters */
+  /* 2. font-family: different types of fonts */
+  /* 3. font-stack: we can see in above syntaxes, there
+  are multiple fonts in font family. Those multiple
+  fonts are called font-stack */
+  /* 4. generic family: There 5 generic family fonts, which
+  i mentioned in 5th line. */
+  /* 5. What is generic family ?
+      in every font stack, we will have generic family font
+      at last, this is beacuse, when the first fonts in font satck
+      not supported by the browser, then automtically font will be
+      takesn from the generic family font. */
+
+
+
+  /* Google Fonts  */     
+      
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+      
+
+div h3 {
+    font-size: 40px;
+    font-family:  'Nunito', sans-serif;
+
+}
+
+
+ 
+ /* 1. these fonts should be taken from google fonts webiste. */
+ /* 2.  Go to google fonts site, click on your fav font,
+ then click on select. Then right hand side you can see
+ use on web option, in that click on import, then copy
+ that code between style tag, then paste that code in css file.
+ under that link you can see css family font option, copy that and
+ paste in css, to set the font for your content*/

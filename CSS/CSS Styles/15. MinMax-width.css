@@ -1,0 +1,21 @@
+ /* min max width */
+
+ h2 {
+    background: blue;
+    color: white;
+    min-width: 250px;
+ }
+
+ h3 {
+    background: red;
+    color: white;
+    max-width: 800px;
+ }
+
+ /* here we used 2 properties */
+ /* 1. min width= this mean, the minimum width will be 250px as per this
+ file, but maximum is, it may increase, if content increases. */
+ /* 2. max width= this mean, the maximim width will be 800px as per this
+ file, but minimum is, it may decrease, if content decreases.  */
+
+ /* same for minmax height */

@@ -1,0 +1,25 @@
+
+/* Percentage-Relative */
+
+.outer {
+    background: red;
+    height: 350px;
+    width: 350px;
+}
+
+.inner {
+    background: blue;
+    height: 50%;
+    width: 50%;
+}
+
+/* here we used percentage value, instead of px  */
+/* 1. this percentage value is depend on parent tag.
+  For Example : in outer class, we used we used 350px, this mean
+  from that pixels value, the perecentage value will be depended. */
+
+  /* relative: this mean the percentage is relate to pixel values
+   */
+
+   /*  pixel is not relative, beacuse this is not dependend */
+   /* percentage is relative, because this is relative   */

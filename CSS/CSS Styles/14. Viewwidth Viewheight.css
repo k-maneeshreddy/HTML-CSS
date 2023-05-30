@@ -1,0 +1,23 @@
+ /* View width and View height */
+
+ /* vh=view height
+    vw=view width */
+
+
+.banner {
+    width: 50vw;
+    height: 50vh;
+    background-color: blueviolet;
+}    
+
+.header {
+    width: 80vw;
+    height: 80vh;
+    background-color: rgb(201, 20, 56);
+}
+
+
+/* Here we used two new values "vw and vh"  */
+/* we have to use these in width and height
+this is helpful, because automatically the content or background
+will be adjusted, according to screen size. */
