@@ -1,0 +1,56 @@
+
+/* padding
+Border
+ Margin
+ Negative-Margin
+ border radius */
+
+
+
+
+ h1 {
+    background: blueviolet;
+    color: white;
+    padding: 40px;    
+    /* here padding means this pixel value is
+       applicable for all sides */
+    margin: -10px;   
+    border: red solid 12px ;
+    border-radius: 25px;
+    
+ }
+
+ p {
+    background: lightgrey;
+    color: black;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    margin: 30px;
+    border-top: red dotted 3px;
+    border-left: green dotted 4px;
+    border-bottom: blue dotted 3px;
+    border-right: yellow dotted 4px;
+    
+ }
+
+ div {
+    background: lightgreen;
+    color: black;
+    padding: 20px 40px
+    /* padding:top+bottom  left+right */
+ }
+
+
+
+ /* 1. padding: if there is a background box, to the content, then the
+ distance from content to box edge, is known as padding.
+ 2. margin: when we run this file, the gap between the background box,
+ and browser background is known as margin. the value will be in +ve &-ve
+ 3. border: Giving a border to background box, in this property we writes 3 values
+ at a time, one is color, border width and border type.
+ 4. padding types: we can give padding seperatly for all side, like
+ padding-right,left,top, bottom.
+ 5. border types: we can give border seperatly for all side, like
+ border-tp, right,bottom,left. */

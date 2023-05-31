@@ -1,0 +1,33 @@
+
+/* Outline 
+Offset */
+
+a {
+    
+    color: white;
+    padding: 8px 15px;
+    margin: 55px;
+    background: blue;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.button {
+  
+    margin: 78px;
+    
+}
+
+.one {
+    outline: red 4px solid;
+    outline-offset: 10px;
+}
+
+
+
+/* 1. Outline is also same a border
+2. Outline-offset is helps to move that,border
+to button out or into the button 
+3. cursor: this is nothing but when we mouse
+over the cursor to button then cursor symbol changes to hand.*/

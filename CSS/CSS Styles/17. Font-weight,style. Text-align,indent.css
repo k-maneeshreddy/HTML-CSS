@@ -1,0 +1,23 @@
+
+/* font-weight
+  font-style
+  text-align
+  text-indent. */
+
+h1 {
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+p {
+    text-align: left;
+    text-indent: 25px;
+}
+
+/* 1. font-weight: This prooperty is useful for
+set the boldness of content. */
+/* 2. font-style: This property is useful for,
+to set italic styles of content. */
+/* 3. text-align: This is for alignment of the content. */
+/* 4. text=indent: This value will be written in form of pixels,
+this is helpful to leave the space in starting line of paragraph. */

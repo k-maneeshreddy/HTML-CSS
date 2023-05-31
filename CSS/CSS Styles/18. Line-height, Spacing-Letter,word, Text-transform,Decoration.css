@@ -1,0 +1,30 @@
+  /* line-height
+    letter-spacing
+    word-spacing
+    Text-transformation
+    Text- decoration*/
+
+    div {
+        background: lightblue;
+        color: red;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 6px;
+
+    }
+
+    p {
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+
+    /* 1. line-height: this is helpful to increase or decrease
+    space between line to line. */
+    /* 2. Letter-spacing: This is helpful tp give space between
+    letter to letter */
+    /* 3. Word-spacing: this is helpful to give space between
+    line to line. */
+    /* 4. Text-transform: this is helpful to convert text to
+    uppercase, smallercase, capitalize. */
+    /* 5. text-decoraction: this is helpful to give underline,
+    overline. etc.., */

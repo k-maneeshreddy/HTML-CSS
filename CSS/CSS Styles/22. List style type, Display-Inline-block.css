@@ -1,0 +1,27 @@
+
+
+/* List-style-type
+Display:inline-outline */
+
+
+ul li {
+    list-style-type: circle;
+}
+
+ul li a{
+    background: darkviolet;
+    color: white;
+    text-decoration: none;
+    padding: 9 px;
+    margin: 9px;
+    display: inline-block;
+}
+
+
+/* 1. List-style-type: This is helpfull to change 
+bullet points list to some other list like, alphabets,
+arrows other symbols.
+2. Display: inline-block: we know that for inline tags
+top & bottom of padding and margin not supports.
+so for that we use this, after applying this, margin
+& padding can be adjusted.  */
