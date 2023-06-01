@@ -1,0 +1,33 @@
+
+
+/* bg shortcut */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    color: red;
+    min-height: 100vh;
+    
+    display: flex;
+     text-align: center;
+    justify-content: center;
+   align-items: center; 
+}
+
+.image {
+    background: url(./Images/Office.jpg) center/cover no-repeat fixed;
+    
+}
+
+/* 1. display: flex :- this will help to bring the heading text to,
+center of the image.
+  2. text-align, align-items :- this property is useful to align the text at left,
+  center or right
+  3. justify-content:- this also helps to keep the content in center,
+  if we change to left or right, then text moves.
+ */

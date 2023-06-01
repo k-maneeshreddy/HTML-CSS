@@ -1,0 +1,43 @@
+
+/* Bakground Image */
+
+
+div {
+    height: 320px;
+}
+.big {
+    background: url(./Images/Office.jpg);
+    background-size: cover;
+    
+}
+.small {
+    background: url(./Images/miniature-figure-1745770_640.jpg);
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: space;   
+    background-repeat: cover;
+    background-position: 20% 40%;
+}
+
+
+
+/* 1. Background: this tag is used to add image.
+2. Background-repeat: repeat, no-repeat :- This two tags we used in 15,16
+line in this file, this will help because the image will no repat 
+multiple times. 
+3. background-repeat: repeat-x: this is helpfull,
+when we use very small images, the images will appear only one
+side while repeat. same in "repeat-y" also
+4. background-repeat: space :- if we use small images then, 
+we will get space between images.
+5. round: this will help, while we using small images, the image
+will repeated with same size
+6. background-size:cover :- this will help, the image will be get fitted in width & height.
+7 background-position: this is helps to align image*/
+
+/* 8. Other properties are
+1. background-attachment: this is helpful to keep background image constant,
+even though we scroll the page down. */
+

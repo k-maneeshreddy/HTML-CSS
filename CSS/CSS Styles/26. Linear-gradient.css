@@ -1,0 +1,16 @@
+
+/* Linear gradient */
+
+
+div {
+    width: 90px;
+    height: 90px;
+}
+.one {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(68,161,152,0.9359267734553776) 33%, rgba(0,212,255,1) 100%);
+}
+
+/* Background: Linear-gradient
+   For this we have website called "css gradient", there we can select the colour
+   as our wish, directly it give the css code, just copy & paste that here. */
