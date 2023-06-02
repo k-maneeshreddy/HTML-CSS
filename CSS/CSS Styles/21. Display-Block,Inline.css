@@ -27,7 +27,7 @@ in padding and margin property. */
 
 /* 1. Display-block: here <h> tags, <div> tag and <p> tags are 
 automatically enabled with block display.
-This mean, when we used background proprty, then it will occupy full width. */
+This mean, when we used background property, then it will occupy full width. */
 /* 2. Display-inline: here when we used background property,
 the width be taken upto text area.
 3. How to keep block elements in center ?

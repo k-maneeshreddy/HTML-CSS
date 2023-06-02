@@ -1,0 +1,17 @@
+/* Pseudo Firstline and html */
+
+p::first-line{
+    color: red;
+    font-weight: bold;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 35px;
+}
+
+/* Here we used pseudo elements, to the pargraph
+1.  ::first-letter :- we can use this element
+to style the first letter in paragraph.
+2. ::first-line :- we can use this element
+to style the first line in paragraph*/

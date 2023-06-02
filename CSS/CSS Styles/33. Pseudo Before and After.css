@@ -18,6 +18,39 @@ p::after {
     padding: 6px;
 }
 
+div {
+    margin-left: 100px;
+    position: relative;
+}
+
+img {
+    width: 280px;
+    display: block;
+}
+
+div::before {
+    content: "";
+    background: gray;
+    width: 73%;
+    height: 100%;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: -2;
+}
+
+div::after {
+    content: "";
+    border: 3px solid grey;
+    width: 73%;
+    height: 100%;
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    z-index: -3;
+    box-sizing: border-box;
+}
+
 /* Here we used pseudo elemets 
 1. p::before/after :- we know in html file, we will give
 paragraph or any text, if you want add some text before/after
@@ -25,4 +58,9 @@ in that paragraph, we can add it in css, without editing the
 file in html.
 2. content property : the content which you want to include before
 or after, you must add that text in content property.
+note: for example you added only before content,
+even though we didnt add any text in after content,
+ give empty content property.
  */
+
+ /* in the same way we can add images, bg, borders. */

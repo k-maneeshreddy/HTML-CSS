@@ -22,4 +22,4 @@
    */
 
    /*  pixel is not relative, beacuse this is not dependend */
-   /* percentage is relative, because this is relative   */
+   /* percentage is relative, because this is depends on parent   */

@@ -1,0 +1,26 @@
+
+/* Descendant and child combinators */
+
+ div {
+    font-size: 25px;
+ }
+
+ div > h1 {
+    color: red;
+ }
+
+ .header > h1 {
+    color: brown;
+ }
+
+ /* 1. in html file of this topic,
+ we have 2 h1's 
+ a. 1st h1 is direct child to div
+ b. 2nd h1 is indirect child, because this h1 comes
+ under li tag child
+ 
+ 2. here we can use this symbol (>) when, we are styling the
+ direct child 
+ 
+3. here specificty is more to class than div,
+ so we used class in 12th line.*/
