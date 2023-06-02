@@ -1,0 +1,37 @@
+
+/* Z-index */
+
+.banner {
+    border: red solid 4px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    height: 40vh;
+    
+}
+
+img {
+    width: 140px;
+    height: 16opx;
+    position: absolute;
+}
+
+.one {
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.two {
+    top: 35px;
+    left: 56px;
+    z-index: 2;
+}
+
+.three {
+    top: 65px;
+    left: 100px;
+}
+
+/* 1. Z-index: this is nothing but, changing the
+images position to back/front, kind of layering the images. */

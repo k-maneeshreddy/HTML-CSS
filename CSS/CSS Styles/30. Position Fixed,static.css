@@ -1,0 +1,25 @@
+
+/* Position-static
+   Position-Fixed */
+
+
+
+.button {
+    width: 80px;
+    background: red;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    position: fixed;
+    right: 10px;
+    top: 10px
+   }
+
+   p {
+    font-size: 70px;
+   }
+
+   /* 1. postion-static:- the default style and font is called position-static. */
+   /* 2. Position-fixed:-  for example, in some websites, the menu bar is constants,
+   even though we scroll down the position is fixed. In this way this tag is helpful */

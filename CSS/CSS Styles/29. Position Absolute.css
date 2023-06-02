@@ -1,0 +1,46 @@
+
+/* Position absolute */
+
+div {
+    border: red 6px solid;
+    padding: 5px;
+    background: yellow;
+    margin: 36px 8px;
+}
+
+.one {
+    background: blue;
+    color: white;
+    
+   
+}
+
+.two {
+    background: green;
+    color: white;
+    position: relative;
+}
+
+.three {
+    background: lightblue;
+    color: red;
+    position: absolute;
+    font-size: 23px;
+    right: 10px;
+    top: 10px;
+}
+
+/* 1. Position:absolute :- 
+   we can change the position of content, using this tag.
+   this tag will take px value from browser margins */
+
+   /* Difference between position: relative, position:absolute */
+   /* relative: It helps to move content, the content will take
+   static position as main. according to that it will moves. */
+
+   /* absolute: It helps to move content, the content will take
+   browser margins as main. according to that it will moves. */
+
+   /* In this file in class (.two) we added relative, and in (.three)
+   we added absolute. so here absolute will take main
+   from relative in (.two) class. */

@@ -1,0 +1,37 @@
+
+/* Media Queries */
+
+body {
+    background: red;
+   
+
+}
+
+h1 {
+    background: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 575px) {
+   body {
+    background: green;
+
+   }
+   h1 {
+    background: black;
+    text-align: center;
+    text-decoration: underline;
+    color: yellow;
+}
+}
+
+
+/* Here we learned new syntax fo media queries
+  this is syntax which is mainly useful, to design the
+  stylings for webpage for mobile, pc seperatley 
+  1. In syntax we used property "min-width" . so here 
+  upto that width, the styling will be normal as we given in line
+  between 4 to 14. After the width crossed, the styling can be
+  changed as per our wish , like in line bewteen 16-27.
+  2. for max-midth also the process is same*/

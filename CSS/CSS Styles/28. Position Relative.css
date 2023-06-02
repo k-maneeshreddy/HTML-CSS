@@ -1,0 +1,34 @@
+
+/* Position Relative */
+
+div {
+    border: red 6px solid;
+    padding: 5px;
+    background: yellow;
+    margin: 6px;
+}
+
+.one {
+    background: blue;
+    color: white;
+    position: relative;
+    top: 160px;
+    left: 8px;
+}
+
+.two {
+    background: green;
+    color: white;
+}
+
+.three {
+    background: lightblue;
+    color: red;
+}
+
+/* 1. Position:relative :
+      The position of the paragraph is static,
+      if we use this tag, then we can move text to
+      left,right, top, bottom.
+      From static place(from that paragraph place), the content will take the px
+      value, then it will move accordingly.*/

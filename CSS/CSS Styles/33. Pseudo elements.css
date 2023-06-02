@@ -1,0 +1,28 @@
+/* Pseudo elements */
+
+p::before {
+    content: "starting   ";
+    font-size: 18px;
+    text-transform: capitalize;
+    background: red;
+    color: white;
+    padding: 6px;
+}
+
+p::after {
+    content: "ending ";
+    font-size: 18px;
+    text-transform: capitalize;
+    background: red;
+    color: white;
+    padding: 6px;
+}
+
+/* Here we used pseudo elemets 
+1. p::before/after :- we know in html file, we will give
+paragraph or any text, if you want add some text before/after
+in that paragraph, we can add it in css, without editing the 
+file in html.
+2. content property : the content which you want to include before
+or after, you must add that text in content property.
+ */

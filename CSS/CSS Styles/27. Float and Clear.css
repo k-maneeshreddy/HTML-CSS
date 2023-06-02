@@ -1,0 +1,38 @@
+/* Float and clear */
+
+div {
+    border: 5px red solid;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.one {
+    width: 350px;
+    height: 400px;
+    float: right;
+}
+
+.two {
+    width: 350px;
+    height: 800px;
+    float: left;
+}
+
+p {
+    clear: left;
+}
+
+/* Float & clear properties are useful to align the image and text.
+if you want to get the text right side of image, then you should use
+clear: right, in that way you can customize either to left or right. */
+
+/* Overflow property, this property we used, because, in this file 
+we used a border, so the content must be in  border it should not comeout from border,
+ even though we increase content, at the time this property will useful. */
+
+ /* float helps to set image align */
+ /* clear helps for content align.
+ clear as 3 values: left, right, both
+ left mean the text comes left to image, if space is available
+ same also for right.*/
+ /* both means the content starts in down of image or layout. */
