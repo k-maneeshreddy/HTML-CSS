@@ -1,0 +1,43 @@
+
+
+/* Transition */
+
+div{
+    width: 120px;
+    height: 120px;
+    margin: 24px;
+    display: inline-block;
+}
+
+.one {
+    background: orangered;
+    transition: background  2s 0.6s ;
+/* transition: property, time, delay  */
+    
+}
+
+.one:hover {
+    background: black;
+}
+
+.two {
+    background: lightgreen;
+    
+}
+
+.three {
+    background: skyblue;
+   
+}
+
+.four {
+    background: black;
+   
+}
+
+
+/* 1. Transition property, in this property we have to give 3 different values
+1st is property like background, border,etc.. 
+2nd value is time
+3rd is delay
+ */

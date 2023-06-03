@@ -1,0 +1,35 @@
+
+/* Hover styling */
+
+
+
+body {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+button {
+    color: white;
+    background: red;
+    border-radius: 10px;
+    display: flex;
+    border: none;
+    padding: 14px;
+    font-size: 25px;
+    border: green;
+
+}
+
+button:hover {
+    color: black;
+    border: green 4px solid;
+    background: white;
+}
+
+/* Here we used new element called hover
+the syntax is = selector :hover {} 
+in between brackets we should add your stylings.*/

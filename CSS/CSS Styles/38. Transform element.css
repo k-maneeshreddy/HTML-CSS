@@ -1,0 +1,41 @@
+
+/* Transform element */
+
+
+div{
+    width: 120px;
+    height: 120px;
+    margin: 24px;
+    display: inline-block;
+}
+
+.one {
+    background: orangered;
+    transform: rotate(40deg);
+}
+
+.two {
+    background: lightgreen;
+    transform: translate(20px, 40px);
+}
+
+.three {
+    background: skyblue;
+    transform: scale(30%, 50%);
+}
+
+.four {
+    background: black;
+    transform: skew(20deg);
+}
+
+/* 1. transform:rotate = this property is useful to
+rotate the image, in barckets 1st value is x direction next is y and next is z
+2. transform:translate = this property is useful to move the image or box
+to left/right & top/bottom, here also in brackets 1st value is X and 
+2nd value is Y. 
+3. transform:scale = this is helpfull to increase or decrease the size,
+4. transform:skew = this property is useful to change the skew direction */
+
+/* Note: if you are using single direction in X and Y then use either X or Y
+for example rotateX(), rotateY(), scaleX(), scaleY() */

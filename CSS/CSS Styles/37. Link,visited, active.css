@@ -1,0 +1,20 @@
+
+/* Elements- :link, :visited, :Active */
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:active {
+    color: green;
+}
+
+/* 1.:link - this is helpful to change the link text colour 
+2. :visited - the color of the link text can be styled, this
+style only changes after visiting that link
+3.  :active - this element helps to change colour,
+when we press and hold*/
