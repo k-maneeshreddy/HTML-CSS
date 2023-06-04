@@ -1,0 +1,56 @@
+
+/* Animation Element */
+
+div {
+    width: 220px;
+    height: 120px;
+   margin: 1rem;
+   
+}
+
+.one{
+    background: red;
+    color: white;
+    font-size: 22px;
+    transition: all 1s ;
+    
+}
+
+.one:hover {
+    transform:translateX(120px) ;
+}
+.two {
+    background: green;
+    color: white;
+    font-size: 22px;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+    animation-name: movinganimation;
+}
+
+@keyframes movinganimation {
+    0%{
+        transform: translateX(60px);
+    }
+    50%{
+        transform: translateX(220px);
+        background: green;
+    }
+    100%{
+        transform: translateX(-80px);
+        background: black;
+    }
+}
+
+/* 1. animation duration:
+This actually we set a animation right, that animation duration.
+2. animation-iteration-count:
+animation repeateation times automatically is known as this.
+3. Animation-name:
+In this itself we can understand
+ */
+
+ /* 1. New animation syntax is @keyframes (animation name)
+ 2. we used percentages in selectors place,
+ this mean in browser at the place according px size
+ the style of that particular box, at the particular place will be changed. */

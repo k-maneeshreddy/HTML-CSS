@@ -1,0 +1,26 @@
+
+/* Text, Box-Shadow */
+
+h1 {
+    color: green;
+    text-shadow: 2px 3px 6px gray;
+    /* text-shadow: x-axis  y-axis  blur  color */
+}
+
+
+.box {
+    background: red;
+    color: blue;
+    width: 100px;
+    height: 100px;
+    box-shadow: 3px 4px 5px goldenrod;
+}
+
+
+/*  1. Text shadow: this property is useful to give shadow to the text
+2. Box shadow:  this property is useful to give shadow to box
+
+note:
+syntax is-
+text-shadow: x-axis  y-axis  blur  color
+box-shadow: x-axis  y-axis  blur  color*/

@@ -1,0 +1,94 @@
+/* CSS Variables */
+
+/* We are going to discuss about
+ 1. global scope
+   2. local scope */
+
+/* .oneheading {
+    color: red;
+}   
+
+p {
+    color: green;
+    font-weight: bold;
+
+}
+
+.maintext {
+    color: brown;
+}
+
+.twoheading {
+    color: blue;
+}
+
+.threeheading {
+    color: teal;
+} */
+
+/* see here in above code i.e line from 7 to 27 ,
+we gave 3 different colour for 3 headings, now it's ok because
+of less number of headings we can change colours of those easily.
+If we had more headings then its difficult right, so here variables
+are usefull */
+
+/* lets comment above text and lets understand about scopes in below code. */
+
+
+/* Global scope */
+/* :root {
+    --primarycolour: red;
+    --Secondarycolour: blue;
+
+}
+
+.oneheading {
+    color: var(--primarycolour);
+}
+
+.twoheading {
+    color: var(--primarycolour);
+}
+
+.threeheading {
+    color: var(--primarycolour);
+} */
+
+/* property: var() = this is the syntax for variables */
+/*  1. in starting we used root pseudo element, this root is nothing but,
+   the properties given on root are applicable for all selectors
+   in html file. in that root element we gave variables
+    2. here we styled 3 different headings, with their classes.
+   in all color property, we used var value, in that we gave same
+   value called (--primarycolour)
+   3. see if we want to change colour fore heading, it's not necesarry
+   to change in all classes seperatly, directly we can change in root
+   element then in all classes it will be updated. */
+
+   /* from line 38 to here i am going to comment, in next following code
+   let's understand local scope. */
+
+
+   /* Local Scope  */
+  
+.maindiv {
+     --primarycolour: blueviolet;
+}
+p {
+    color: var(--primarycolour);
+}
+
+/* 1. here we gave variables, to maindiv class, this is
+a div tag in our html file.
+In our html file div is parent and child is p.
+so if we give any variables using in parent tag,
+then those all variables are applicable to all childs in that parent tag.
+2. See in this file (our example), in html file we gave 2 p tags,
+but in that 1 p is individual tag and other one is child to div.
+so even though in styling we used p and styled using variable,
+this is applicable only to that child p tag only. */
+
+/* this concept is mainly useful to change all selectors- properties, values
+at a time i.e in at one place, that place is nothing but variables 
+a. gloabal variable(applicable to whole file).
+b. local scope(applicable seperately to each parent tags.; */
