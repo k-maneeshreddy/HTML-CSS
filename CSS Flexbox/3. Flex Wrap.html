@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FlexBox</title>
+    <link rel="stylesheet" href="./3. Flex Wrap.css" />
+  </head>
+  <style>
+    /* flex-wrap */
+    /* nowrap (default), wrap, wrap-reverse */
+    .container {
+      display: flex;
+      /* flex-wrap: nowrap; */
+      flex-wrap: wrap;
+      /* flex-wrap: wrap-reverse; */
+    }
+  </style>
+  <body>
+    <!-- Parent = flex-container -->
+    <div class="container">
+      <!-- Childrens - flex-items -->
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+      <div class="box generic">G</div>
+      <div class="box generic">G</div>
+      <div class="box generic">G</div>
+      <div class="box generic">G</div>
+      <div class="box generic">G</div>
+      <div class="box generic">G</div>
+      <div class="box generic">G</div>
+    </div>
+  </body>
+</html>
+
+<!-- Here we use 3 different properties 
+  * Actually this wrap is useful, when we have full witdh box,
+  if we want to adjust size according to screen size, then wrap will be useful  
+1. flex-wrap : nowrap = this is default property, there will be no changes
+2. flex-wrap: wrap = when we have full width box, then if we use this tag.
+then it will be adjusted screen size.
+3. flex-wrap: wrap-reverse = the adjustment of box, will start adjusting in 
+reverse directio.-->

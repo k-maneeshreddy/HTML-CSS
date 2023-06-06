@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    <link rel="stylesheet" href="./10. Flex shrink.css" />
+  </head>
+  <style>
+    /* flex-shrink */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .box-2 {
+      width: 300px;
+      flex-shrink: 0;
+    }
+    .box-5 {
+      width: 400px;
+      flex-shrink: 0;
+    }
+  </style>
+  <body>
+    <!-- parent= flex-container -->
+    <div class="container">
+      <!-- childrens= flex-items -->
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+    </div>
+  </body>
+</html>
+
+<!-- Here we used flex-shrink property -->
+<!-- in this file we gave box-2 width as 300px and box-5 width as 400px.
+but when you reduces the screen size, according the screen size the width also
+decreasing, so if we want same width in full width in both small screen and large screen
+then flex shrink will be helpful, this keeps width size constant. -->
+
+<!-- flex-shrink : 1 (default), if we want to set same width in both big and small screen
+we should flex-shrink: 0 -->

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    <link rel="stylesheet" href="./5. Align items.css" />
+  </head>
+  <style>
+    /* align-items  vertical alignment 
+    1. stertch (default)
+    2. flex-start = content start at left side of the box
+    3. flex-end = content start at left bottom end of the box
+    4. center = content will start at left center
+    5. Baseline = according border/box, content starts at top as same as flex start*/
+    .container {
+      display: flex;
+      height: 65px;
+      height: 60vh;
+      align-items: stretch;
+      align-items: flex-start;
+      align-items: flex-end;
+      align-items: center;
+      align-items: baseline;
+    }
+  </style>
+  <body>
+    <!-- parent= flex-container -->
+    <div class="container">
+      <!-- childrens= flex-items -->
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+    </div>
+  </body>
+</html>

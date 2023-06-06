@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    <link rel="stylesheet" href="./7. Order Property.css" />
+  </head>
+  <style>
+    /* order Property */
+    .container {
+      display: flex;
+    }
+    .box-1 {
+      order: 2;
+    }
+    .box-2 {
+      order: 5;
+    }
+  </style>
+  <body>
+    <!-- parent= flex-container -->
+    <div class="container">
+      <!-- childrens= flex-items -->
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+    </div>
+  </body>
+</html>
+
+<!-- Here we used order property 
+In container parent we gave 5 children, so when we run this file,
+we willl get output in same order like 1,2,3,4,5 (as per this file)
+to change the order we use this property
+note:- as default all child tags 0 order. -->

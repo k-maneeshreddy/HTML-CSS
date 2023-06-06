@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    <link rel="stylesheet" href="./4. Justify content.css" />
+  </head>
+  <style>
+    /* justify-content  Horizontal Alignment
+    1. flex-start (default)
+    2. flex-end
+    3. space-beween  (first item start and last item end)
+    4. space around (around 10px gap for item both & left sides)
+    5. Space-evenly (space between every item  in left & right side are equal) */
+    .container {
+      display: flex;
+      justify-content: flex-start;
+      justify-content: flex-end;
+      justify-content: space-between;
+      justify-content: space-around;
+      justify-content: space-evenly;
+    }
+  </style>
+  <body>
+    <!-- parent= flex-container -->
+    <div class="container">
+      <!-- childrens= flex-items -->
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+    </div>
+  </body>
+</html>
+
+<!-- 1. flex-start = this is nothing but then content starts at default align
+i mean from left side.
+2. flex-end = the left content moves left to right
+3. space-between = in this file we used 5 items, in that
+first and last item will be in end, between the other items we will get space.
+4. space-around = by using this value we will get space between both sides of all item
+but in left and right ends we will get less space.
+5. space-evenly = if we use this value will get equal space both sides of item -->

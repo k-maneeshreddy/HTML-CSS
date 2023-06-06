@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    <link rel="stylesheet" href="./11. Flex basis.css" />
+  </head>
+  <style>
+    /* flex-basis */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      flex-basis: 150px;
+    }
+
+    /* flex shortcut */
+    /* flex: flex-grow  flex-shrink  flex-basis */
+  </style>
+  <body>
+    <!-- parent= flex-container -->
+    <div class="container">
+      <!-- childrens= flex-items -->
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+    </div>
+  </body>
+</html>
+
+<!-- Here we used flex-basis property -->
+<!-- when we gave flex basis value, then that value is applicable to all items
+in child tags -->
+<!-- The sizes of items will be same even though we decreae or increase the screen size. -->

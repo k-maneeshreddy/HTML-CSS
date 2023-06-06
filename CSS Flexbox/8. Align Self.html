@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    <link rel="stylesheet" href="./8. Align Self.css" />
+  </head>
+  <style>
+    /* align-self */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      height: 60vh;
+      align-items: flex-start;
+    }
+    .box-1 {
+      align-self: flex-end;
+    }
+
+    .box-3 {
+      align-self: center;
+    }
+  </style>
+  <body>
+    <!-- parent= flex-container -->
+    <div class="container">
+      <!-- childrens= flex-items -->
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+    </div>
+  </body>
+</html>
+
+<!-- Here we used align-self tag
+1. in this file we useed 5 items, if we use align items property or justify - content
+property, then those value are applicable for all items at a time, i.e all
+child items will be aligned commonly.
+2. but if we use align self property then we can set alignment of each item seperatly  -->

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    <link rel="stylesheet" href="./1. CSS Flexbox.css" />
+  </head>
+  <style>
+    .container {
+      display: flex; /* this is property is mandetory when we use flex box */
+      display: inline-flex;
+    }
+  </style>
+  <body>
+    <!-- parent= flex-container -->
+    <div class="container">
+      <!-- childrens= flex-items -->
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+    </div>
+  </body>
+</html>
+
+<!-- 1. parent tag/class is known as flex-container 
+    2. child tag/class ais known as flex-items-->
+
+<!-- In style tag we used display-flex and display inline-flex
+1. display: flex = when we use this property the content will full browser width
+2. display: inline-flex: when we use this property, the width will taken
+according content size. i mean only content width will be taken.  -->
+
+<!-- When we use display:flex then the box direction will be changed to row. -->
